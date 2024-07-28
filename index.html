@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.2/css/all.css" />
+    <link rel="stylesheet" href="./style.css">
+    <!-- Styles Splide -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css'>
+    <title>Accueil</title>
+</head>
+
+<body>
+
+    <!-- PARTIE COMMUNE -->
+    <div class="nav-bar-fim">
+        <div class="container_recherche">
+            <input type="text" placeholder="Recherche...">
+            <div class="search">
+                <img src="images/search.png" alt="Search">
+            </div>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="fiche-film.html">Fiche film</a></li>
+                <li><a href="categories.html">Catégorie</a></li>
+                <li><a href="acteur.html">Fiche acteur</a></li>
+                <li><a href="categorie_1.html">une categorie</a></li>
+                <li><a href="a-propos.html">À propos</a></li>
+                <li><a href="recherche.html">recherche</a></li>
+            </ul>
+        </div>
+        <div class="menu">
+            <div id="burger-menu">
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <div class="logo-fim-header">
+        <a href="index.html">
+            <img src="images/logo-fim.png" alt="logo-FIM">
+        </a>
+    </div>
+
+
+    <header class="header-accueil">
+        <div class="row">
+            <div class="col-fluid col-lg col-md col-sd">
+                <div id="splide1" class="splide">
+                    <div class="splide__track">
+                        <div class="splide__list">
+                            <div class="splide__slide">
+                                <div class="splide__img">
+                                    <a href="">
+                                        <img src="images/accueil/sectiuon-1/p-d-s.jpg" class="img-fluid" alt=""/>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="splide__slide">
+                                <div class="splide__img">
+                                    <a href="">
+                                        <img src="images/accueil/sectiuon-1/g-k.jpg" class="img-fluid" alt="" />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="splide__slide">
+                                <div class="splide__img">
+                                    <a href="">
+                                        <img src="images/accueil/sectiuon-1/k-f-p.jpg" class="img-fluid" alt="" />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="splide__slide">
+                                <div class="splide__img">
+                                    <a href="">
+                                        <img src="images/accueil/sectiuon-1/b-c.jpg" class="img-fluid" alt="" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="accueil-body">
+        <div class="accueil-container">
+            <div class="section-tendances-accueil">
+                <div class="d-flex">
+                    <h2>Tendances</h2>
+                    <div class="btn-tendances">
+                        <a href="#">Aujourd'hui</a> 
+                        <span class="tendances-a">
+                            <a href="#">Cette semaine</a> 
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tendances-carrousel">
+            <div id="splide2" class="splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/tendences/01-(1).jpg" alt="photo-film" />
+                                <div class="card__content">
+                                    <h3 class="card__title">Guerre Civile</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/tendences/01-(3).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">L'homme qui tombe à pic</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/tendences/01-(4).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Une partie de toi</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/tendences/01-(5).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Atlas</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/tendences/01-(6).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Die Hart</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/tendences/01-(7).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Les Cartes du Mal </h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/tendences/01-(9).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Furiosa : une saga Mad Max</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/tendences/01-(10).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Godzilla x Kong : Le Nouvel Empire</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/tendences/01-(11).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Dune </h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/tendences/01-(12).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Godzilla Minus One</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/tendences/01-(13).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">La Planète des Singes : Le Nouveau Royaume</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/tendences/01-(15).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Challengers</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/tendences/01-(16).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Biônicos</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/tendences/01-(18).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Les Couleurs du mal : Rouge</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="accueil-container">
+            <div class="section-mystere-accueil">
+                <h2>Mystère</h2>
+            </div>
+        </div>
+        <div class="tendances-carrousel">
+            <div id="splide3" class="splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/mystere/01-(1).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Les Guetteurs</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/mystere/01-(3).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Mercy</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/mystere/01-(4).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Immacylée</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/mystere/01-(5).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Alien</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/mystere/01-(6).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Le chat qui dort</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/mystere/01-(7).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Premier contact</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/mystere/01-(8).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Black Lotus </h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/mystere/01-(9).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Imaginaire</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/mystere/01-(10).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Canicule 2 </h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/mystere/01-(11).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Batman</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/mystere/01-(12).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Cinq nuits chez Freddy </h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="accueil-container">
+            <div class="section-romance-accueil">
+                <h2>Romance</h2>
+            </div>
+        </div>
+        <div class="tendances-carrousel">
+            <div id="splide4" class="splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/romance/01-(1).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Perra Vida</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/romance/01-(2).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Noche de Bodas</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/romance/01-(3).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">L'Idée d'être avec toi</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/romance/01-(4).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Tous sauf toi </h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/romance/01-(5).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">la mère de la mariée</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/romance/01-(6).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Chabuca</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/romance/01-(7).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Am I OK?</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/romance/01-(8).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Pauvres créatures</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/romance/01-(9).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Yesterday</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/romance/01-(10).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">élémentaire</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/romance/01-(11).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Tueur à gages</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/romance/01-(12).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Titanic</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="accueil-container">
+            <div class="section-telefilm-accueil">
+                <h2>Téléfilm</h2>
+            </div>
+        </div>
+        <div class="tendances-carrousel">
+            <div id="splide5" class="splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/telefilm/01-(1).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Craic before the creek  </h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/telefilm/01-(3).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Descendants 3</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/telefilm/01-(4).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Duel</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/telefilm/01-(5).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Descendants</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/telefilm/01-(6).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Fallen</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/telefilm/01-(7).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Zapped</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/telefilm/01-(8).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Savoring Paris</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/telefilm/01-(9).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Megalodon</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/telefilm/01-(10).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Matrix</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/telefilm/01-(11).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Star struck</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/telefilm/01-(13).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Girl in the Basement</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/telefilm/01-(16).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">Down</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <a href="fiche-film.html">
+                                <img class="card__image" src="images/accueil/telefilm/01-(18).jpg" alt="photo-film"  />
+                                <div class="card__content">
+                                    <h3 class="card__title">How to Murder Your Husband</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-index d-flex justify-content-between">
+        <a href="index.html">
+            <img src="images/logo-fim.png" alt="logo-FIM">
+        </a>
+        <a class="a-footer-index d-flex justify-content-center" href="a-propos.html">À propos</a>
+        <div class="tmdb">
+            <img src="images/logo-tmdb.svg" alt="logo-tmdb">
+        </div>
+    </footer>
+
+    <script src='https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js'></script>
+    <script  src="./script.js"></script>
+
+</body>
+</html>         
